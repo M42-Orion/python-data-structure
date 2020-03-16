@@ -30,3 +30,22 @@ print(myheap,'返回前三个最大的元素')
 heapq.nsmallest(3,myheap)
 print(myheap,'返回前三个最小的元素')
 
+# def test(m,List):
+#     n = 0
+#     k = 0
+#     while n<m:
+#         n = n*2 +1 
+#         k = k+1
+#     m = 1
+#     try:
+#         for i in range(1,k):
+#             print('  '*(k-(i)),end = '')
+#             for j in range(0,i*i):
+#                 print(List[m],end = ' ')
+#                 m = m+1
+#             print('\n')
+#     except:
+#         pass
+# a = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7]
+# test(len(a),a)
+
