@@ -209,11 +209,11 @@ y_set = set('COOKIE')
 
 print(x_set)
 
-{'A', '&', 'O', 'E', 'C', 'K'}
+# {'A', '&', 'O', 'E', 'C', 'K'}
 
 print(y_set) # Single unique 'o'
 
-{'I', 'O', 'E', 'C', 'K'}
+# {'I', 'O', 'E', 'C', 'K'}
 
 print(x_set - y_set) # All the elements in x_set but not in y_set
 # ###################################################
