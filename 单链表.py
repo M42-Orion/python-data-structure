@@ -158,12 +158,11 @@ class SinglyLinkedList:
             cur = cur.next
         return False
 
-
-test = SinglyLinkedList()
-test.add(3)
-test.add(4)
-test.add(5)
-test.add(6)
-test.add(7)
-# test.append(8)
-test.ergodic()
+if __name__ == "__main__":
+    test = SinglyLinkedList()
+    test.add(3)
+    test.add(4)
+    test.add(5)
+    test.add(6)
+    test.add(7)
+    test.ergodic()
